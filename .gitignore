@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Data (never commit)
+data/raw/
+data/processed/
+
+# Results (generated)
+results/runs/
+results/metrics/
+results/figures/
+
+# Logs & checkpoints
+*.log
+*.ckpt
+*.pth
+*.pt
+
+# Temporary files
+tmp/
+cache/
+
+# Latex build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+
+# PDFs (optional: comment out if you want to commit final paper)
+paper/*.pdf
